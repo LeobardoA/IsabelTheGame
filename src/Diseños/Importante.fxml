@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ImportanteController">
+   <children>
+      <Label fx:id="lbl" alignment="CENTER" layoutX="185.0" layoutY="258.0" onMouseClicked="#regresar" styleClass="regresar" stylesheets="@../Estilos/credits.css" text="¿Quisieras tener una cita conmigo?" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

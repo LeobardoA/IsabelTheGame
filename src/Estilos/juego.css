@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url(../Recursos/minecraft.ttf);
+}
+.icon{
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-border-width: 3px;
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 3em;
+    -fx-padding: 0;
+}
+.progress{
+    -fx-padding: 0px;
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-radius: 0px 8px 8px 0px;
+    -fx-border-width: 3px;
+}
+.progress .bar{
+    -fx-background-color: #006633;
+    -fx-padding: 0px;
+}
+.title{
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 1.2em;
+}

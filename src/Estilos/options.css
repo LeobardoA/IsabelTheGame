@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url(../Recursos/minecraft.ttf);
+}
+.option{
+    -fx-background-color: #00000040;
+    -fx-padding: 10px;
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 22px;
+}
+.btnOption{
+    -fx-background-color: #00000040;
+    -fx-background-radius: 10px;
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 22px;
+    -fx-text-fill: white;
+}
+.btnOption:hover{
+    -fx-text-fill: gold;
+}
+.btnOption:pressed{
+    -fx-background-color: #33333340
+}
+.volume .track{
+    -fx-pref-height: 30px;
+    -fx-background-radius: 0px;
+    -fx-background-color: #22222290;
+}
+.volume .thumb {
+    -fx-pref-height: 31;
+    -fx-pref-width: 10;
+    -fx-background-radius: 0px;
+    -fx-background-color: gray;
+}
+.volume .colored-track{
+    -fx-background-color: #88888895;
+}
+.volume .animated-thumb{
+    -fx-opacity: 0;
+}

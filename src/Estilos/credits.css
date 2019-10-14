@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'Minecraft';
+    src: url(../Recursos/minecraft.ttf);
+}
+.titulos{
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 2em;
+    -fx-text-fill: black;
+}
+.textos{
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 1.2em;
+    -fx-text-fill: black;
+}
+.regresar{
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
+}
+.regresar:hover{
+    -fx-text-fill: gold;
+}
+.important{
+    -fx-font-family: "Minecraft";
+    -fx-font-size: 1.2em;
+    -fx-text-fill: black;
+}
+.important:hover{
+    -fx-text-fill: gold;
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="padre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" stylesheets="@../Estilos/credits.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.CreditsController">
+   <children>
+      <ImageView fx:id="fondo" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/sky.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg0" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/cloud_lonely.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg00" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/cloud_lonely.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg1" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg11" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg2" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg22" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg3" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg33" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg4" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bkg44" fitHeight="550.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Recursos/DarkForest/clouds_MG_1.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label styleClass="titulos" text="Juego creado por:" />
+            <Label onMouseClicked="#important" styleClass="important" text="Jonathan Leobardo Aviles Martinez" />
+            <Label styleClass="titulos" text="Iconos:" />
+            <Label styleClass="textos" text="speaker volume by Bluetip Design from the Noun Project" />
+            <Label styleClass="textos" text="Mute by Bluetip Design from the Noun Project" />
+            <Label styleClass="textos" text="pause by Bluetip Design from the Noun Project" />
+            <Label styleClass="titulos" text="Diseños y fondos:" />
+            <Label styleClass="textos" text="Aethrall &amp; Vnitti" />
+         </children>
+      </VBox>
+      <Label alignment="CENTER" style="-fx-background-color: #00000040;" styleClass="titulos" text="Creditos" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#goBack" styleClass="btnOption" stylesheets="@../Estilos/options.css" text="Go back" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+   </children>
+</AnchorPane>
